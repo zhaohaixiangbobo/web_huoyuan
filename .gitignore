@@ -1,0 +1,53 @@
+# 前端相关
+# dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# 后端相关
+# Python字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.env/
+
+# 日志文件
+*.log
+
+# 本地配置文件
+.env
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Excel临时文件
+~$*.xlsx
+~$*.xls
